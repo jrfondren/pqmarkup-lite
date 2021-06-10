@@ -33,7 +33,7 @@ void TEST(string str1, string str2, bool ohd = false) {
                 command ~= full_fname;
                 File(full_fname, "w").write(file[1]);
             }
-            //execute(command);
+            execute(command);
             kdiff_showed = true;
         }
         failed_tests++;
